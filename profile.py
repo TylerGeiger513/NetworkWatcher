@@ -5,8 +5,8 @@ import geni.rspec.pg as pg
 # Create a portal context
 pc = portal.Context()
 
-# Create an RSpec object
-rspec = pg.Reservation()
+# Create an RSpec object for a CloudLab experiment
+rspec = pg.Experiment()
 
 # Add a node with your desired configuration
 node = rspec.AddNode("node1")
